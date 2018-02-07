@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ME_2_M_Fitness_Site", "ME_2_M_Fitness_Site\ME_2_M_Fitness_Site.csproj", "{B5984999-E3A3-475D-A6E0-F1B70C6B1D4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backbone", "Backbone\Backbone.csproj", "{631CD7A6-03DB-40BA-B05B-09747288B8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ME_2_M_Fitness_Site.Domain", "ME_2_M_Fitness_Site.Domain\ME_2_M_Fitness_Site.Domain.csproj", "{7CA464A3-56B6-4546-9665-BD4C9D3AE4B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B5984999-E3A3-475D-A6E0-F1B70C6B1D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5984999-E3A3-475D-A6E0-F1B70C6B1D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5984999-E3A3-475D-A6E0-F1B70C6B1D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631CD7A6-03DB-40BA-B05B-09747288B8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631CD7A6-03DB-40BA-B05B-09747288B8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631CD7A6-03DB-40BA-B05B-09747288B8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631CD7A6-03DB-40BA-B05B-09747288B8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA464A3-56B6-4546-9665-BD4C9D3AE4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA464A3-56B6-4546-9665-BD4C9D3AE4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA464A3-56B6-4546-9665-BD4C9D3AE4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA464A3-56B6-4546-9665-BD4C9D3AE4B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
