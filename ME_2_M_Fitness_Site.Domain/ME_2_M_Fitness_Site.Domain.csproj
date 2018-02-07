@@ -40,7 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\Client.cs" />
+    <Compile Include="Class\Day.cs" />
+    <Compile Include="Class\Excercise.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Constant\Enumeration\RepetitionCategory.cs" />
+    <Compile Include="Class\Workout.cs" />
+    <Compile Include="Class\WorkoutPhase.cs" />
+    <Compile Include="Class\WorkoutPlan.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Backbone\Backbone.csproj">
+      <Project>{631cd7a6-03db-40ba-b05b-09747288b8d1}</Project>
+      <Name>Backbone</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
